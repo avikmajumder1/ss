@@ -1,0 +1,182 @@
+* {
+    padding: 0px;
+    margin: 0;
+}
+
+nav#navid {
+    width: 100%;
+}
+
+#section {
+    height: 80px;
+    background: #dddd;
+    border-top: 2px solid orange;
+    border-bottom: 2px solid orange;
+
+}
+
+#attachment {
+    width: 1350px;
+    margin: auto;
+}
+
+#image {
+    width: 15%;
+    float: right;
+    margin: 9px;
+
+
+}
+
+img {
+    width: 100%;
+
+}
+
+#main_menu {
+    width: 75%;
+    margin: 7px;
+
+}
+
+#main_menu li {
+    display: inline-block;
+    float: left;
+    list-style-type: none;
+    padding: 15px;
+    position: relative;
+    z-index: 1;
+
+}
+
+#main_menu li:hover {
+    background: blue;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 1px solid orange;
+
+}
+
+#main_menu li a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 23px;
+    color: #1d1d93;
+    padding: 16px;
+}
+
+#main_menu li a:hover {
+    color: white;
+}
+
+#sub_menu {
+    width: 250px;
+    position: absolute;
+    display: grid;
+    margin-top: 30px;
+    background: black;
+    position: absolute;
+    top: 35px;
+    left: 0px;
+    transform: scaleY(0);
+    transform-origin: top;
+
+}
+
+#sub_menu li a {
+    color: orange;
+    transition: 1s;
+}
+
+#sub_menu li:hover a {
+    padding-left: 50px;
+}
+
+#main_menu li:hover #sub_menu {
+    transition: 1.2s;
+    transform: scaleY(1);
+
+}
+
+footer {
+    width: 100%;
+    background: #301955;
+    color: #d7cece;
+    /* padding: 0px; */
+    /* overflow: hidden; */
+}
+
+#block {
+    width: 330px;
+    display: inline-block;
+    padding: 10px;
+    line-height: 26px;
+}
+
+#block h2 {
+    border-bottom: 1px solid gray;
+    padding-bottom: 4px;
+}
+
+#block p {
+    padding-top: 10px;
+}
+
+#footer {
+    width: 90%;
+    margin: auto;
+    display: inline;
+    padding: 0px 10px;
+
+}
+
+.Subscribe_Block {
+
+    margin-top: 0px;
+    overflow: hidden;
+    padding: 0px;
+    float: right;
+
+}
+
+.link li {
+    list-style: none;
+    padding: -2px;
+}
+
+.link li a {
+    padding: 10px 20px;
+    text-decoration: none;
+    color:#c4c1c1;
+
+
+}
+.link li a:hover{
+    text-decoration: underline;
+}
+.link li:last-child{
+    border: none;
+}
+ul.link {
+       padding: 31px 0px 0px 0px;
+
+}
+
+#block input {
+    padding: 8px;
+    margin-top: 8px;
+    width: 93%;
+    /* max-width: 100%; */
+}
+
+input#submit_button {
+    max-width: 100%;
+    width: 99%;
+    text-align: center;
+    background: aquamarine;
+    color: #6200ff;
+    padding:15px;
+}
+ul.link li {
+    border-bottom: 1px solid #615c5cb5;
+}
